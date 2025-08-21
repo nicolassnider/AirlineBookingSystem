@@ -9,9 +9,9 @@ namespace AirlineBookingSystem.Flights.Api.Controllers;
 [Route("api/flights")]
 public class FlightsController : ControllerBase
 {
-    private readonly Mediator _mediator;
+    private readonly IMediator _mediator;
 
-    public FlightsController(Mediator mediator)
+    public FlightsController(IMediator mediator)
     {
         _mediator = mediator;
     }
