@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AirlineBookingSystem.Bookings.Application\AirlineBookingSystem.Bookings.Application.csproj" />
     <ProjectReference Include="..\AirlineBookingSystem.Bookings.Core\AirlineBookingSystem.Bookings.Core.csproj" />
     <ProjectReference Include="..\AirlineBookingSystem.Bookings.Infrastructure\AirlineBookingSystem.Bookings.Infrastructure.csproj" />
